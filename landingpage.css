@@ -256,7 +256,6 @@ header.shadow {
   background: var(--second-color);
   transition: 0.2s all linear;
 }
-
 /*footer*/
 .footer {
   display: grid;
