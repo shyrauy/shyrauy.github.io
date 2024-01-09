@@ -5,6 +5,7 @@
 }
 
 .banner{
+	/*display: flex;*/
 	width: 150%;
 	height: 100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.75));
@@ -76,9 +77,101 @@ p{
 
 .aboutus{
 	padding: 50px;
+	background-color: #F6D776;
 }
 
 .aboutus p{
 	padding-left: 70px;
 	padding-right: 70px;
+	font-size: 20px;
+	
+}
+
+.menu-header{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 15px;
+	padding-left: 15px;
+}
+
+.row h1{
+	text-align: center;
+	padding: 50px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.column h2{
+	text-align: center;
+}
+
+/*footer*/
+footer{
+	background-color: #111;
+}
+
+.footerinfo{
+	width: 100%;
+	padding: 30px 30px 20px;
+}
+
+.socialicons{
+	display:flex;
+	justify-content: center;
+}
+
+.socialicons a{
+	text-decoration: none;
+	padding:10px;
+	background-color: white;
+	margin:10px;
+	border-radius: 50%;
+}
+
+.socialicons a i{
+	font-size: 25px;
+	color: black;
+	opacity: 0.9;
+}
+
+/*hover*/
+.socialicons a:hover{
+	background-color: #111;
+	transition: 0.5s;
+}
+
+.socialicons a:hover i {
+	color: white;
+	transition:0.5s;
+}
+
+.bottomfooter{
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.bottomfooter p{
+	color: white;
+}
+
+.designer{
+	opacity:0.7;
+	text-transform: uppercase;
+	letter-spacing:1px;
+	font-weight: 400 ;
+	margin: 0px 5px;
+}
+
+/*media query for footer*/
+@media(max-width:700px){
+	
 }
