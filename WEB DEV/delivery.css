@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+}
+
+.navigation{
+	width:85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.logo{
+	width:80px;
+	cursor:pointer;
+}
+
+.navigation ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	
+}
+
+.navigation a{
+	color: brown;
+	font-weight: 150px;
+	font-style: bold;
+
+}
+
+.navigation a:hover{
+	color:blue;
+
+
+}
+
