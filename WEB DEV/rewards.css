@@ -38,3 +38,20 @@
 
 
 }
+
+/*image*/
+.slogan img{
+	display:flex;
+	float: left;
+	background-size: contain;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+	width: 50%;
+}
+
+.text{
+	text-align: right;
+	float: right;
+}
+
+
