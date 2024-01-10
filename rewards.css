@@ -27,7 +27,8 @@ section {
 img {
   width: 40%;
   display: inline-block;
-  position: fixed;
+  position: absolute;
+
 
 }
 body {
@@ -211,6 +212,28 @@ header.shadow {
     }
   }
   @media (max-width: 768px) {
+    img {
+      width: 100%;
+      display: inline-block;
+      position: absolute;}
+    .slogan{
+      padding: 10px;
+      text-align: center;
+    }
+
+    .text h1{
+      padding: 10px;
+      text-align: center;
+      
+    }
+    img {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+      align-items: center;
+      gap: 1.5rem;}
     header {
       padding: 12px 4%;
     }
@@ -244,6 +267,10 @@ header.shadow {
     }
   }
   @media (max-width: 360px) {
+    img {
+      width: 100%;
+      display: inline-block;
+      position: absolute;}
     header {
       padding: 11px 4%;
     }
@@ -271,6 +298,17 @@ header.shadow {
     }
     .heading h2 {
       font-size: 1.2rem;
+    }
+
+    .slogan{
+      padding: 10px;
+      text-align: center;
+    }
+
+    .text h1{
+      padding: 10px;
+      text-align: center;
+      
     }
   }
   
