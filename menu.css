@@ -127,10 +127,10 @@ header.shadow {
     gap: 1.5rem;
 }
 .home-text h1 {
+   font-size: 70px;
     display: flex;
-    font-size: large;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 .home-text p {
     font-size: 0.938rem;
