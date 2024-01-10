@@ -49,9 +49,10 @@ header.shadow {
   background: var(--text-color);
   box-shadow: var(--box-shadow);
 }
+
+
 .logo img {
   width: 60px;
-  padding-top: -10px;
 
 }
 .navbar {
